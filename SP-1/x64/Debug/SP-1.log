@@ -1,2 +1,8 @@
-﻿  cpW.cpp
+﻿  main.cpp
+C:\Users\levma\source\repos\SP-1\SP-1\main.cpp(22,17): warning C4244: инициализация: преобразование "ULONGLONG" в "int", возможна потеря данных
+C:\Users\levma\source\repos\SP-1\SP-1\main.cpp(24,15): warning C4244: инициализация: преобразование "ULONGLONG" в "int", возможна потеря данных
+C:\Users\levma\source\repos\SP-1\SP-1\main.cpp(31,17): warning C4244: инициализация: преобразование "ULONGLONG" в "int", возможна потеря данных
+C:\Users\levma\source\repos\SP-1\SP-1\main.cpp(33,15): warning C4244: инициализация: преобразование "ULONGLONG" в "int", возможна потеря данных
+C:\Users\levma\source\repos\SP-1\SP-1\main.cpp(43,17): warning C4244: инициализация: преобразование "ULONGLONG" в "int", возможна потеря данных
+C:\Users\levma\source\repos\SP-1\SP-1\main.cpp(45,15): warning C4244: инициализация: преобразование "ULONGLONG" в "int", возможна потеря данных
   SP-1.vcxproj -> C:\Users\levma\source\repos\SP-1\x64\Debug\SP-1.exe

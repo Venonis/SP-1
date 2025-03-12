@@ -24,14 +24,14 @@ int cpW(LPWSTR filr, LPWSTR filw) {
         GENERIC_WRITE,
         FILE_SHARE_WRITE,
         NULL,
-        OPEN_EXISTING,
+        CREATE_ALWAYS,
         FILE_ATTRIBUTE_NORMAL,
         NULL
     );
 
     if (hDst == INVALID_HANDLE_VALUE) {
         CloseHandle(hSrc);
-        printf("Ошибка создания целевого файла\n");
+        printf("Ошибка открытия целевого файла\n");
         return 1;
     }
 
